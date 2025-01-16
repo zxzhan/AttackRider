@@ -2,7 +2,6 @@ import torch
 import torchvision
 
 from models.resnet import ResNet18
-from models.wideresnet import WideResNet
 
 import argparse
 DATASET_PATH = '../../CIFAR-10_AT/cifar-data'
