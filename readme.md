@@ -21,9 +21,9 @@ python train_attackrider_baseat.py --dataset CIFAR-10 --base-at PGDAT --e 6
 ```
 where ```--dataset``` can also be CIFAR-100 or TinyImageNet.
 
-### Evaluation with AutoAttack
+#### Evaluation with AutoAttack
 ```
-python ./test_aa.py --model-path ./CIFAR-10_results/AR_Bullet_TRADES_beta10.0_e2/ep_best.pt --dataset CIFAR-10
+python test_aa.py --model-path ./CIFAR-10_results/AR_Bullet_TRADES_beta10.0_e2/ep_best.pt --dataset CIFAR-10
 ```
 
 ## Tabular Datasets
@@ -46,10 +46,9 @@ python train_attackrider_baseat.py --dataset jannis --epsilon 0.1 --e 6
 python train_attackrider_bullet.py --dataset covtype --epsilon 0.05 --e 2
 python train_attackrider_dbac.py --dataset covtype --epsilon 0.05 --e 3
 python train_attackrider_baseat.py --dataset covtype --epsilon 0.05 --e 3
-
 ```
 
-### Evaluation with PGD-100 Attack
+#### Evaluation with PGD-100 Attack
 ```
 python test_pgd100.py --checkpoint-path ./output/covtype/FT-Transformer_AT_e3/checkpoint.pt --dataset covtype --epsilon 0.05
 ```
