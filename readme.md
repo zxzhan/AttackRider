@@ -1,5 +1,5 @@
 # AttackRider
-Code for Speedup Adversarial Training on Under-Utilized GPU
+Code for our IJCAI-25 paper ```Accelerating Adversarial Training on Under-Utilized GPU```
 
 ## Image Datasets
 
